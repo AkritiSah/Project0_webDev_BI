@@ -1,0 +1,15 @@
+body
+{
+   background-color: rgb(255, 255, 0); 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 20cqmax;
+}
+.POST
+{
+    background: green;
+    width: 500px;
+    padding: 25px;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form method="POST" action="./form.php">
+        <p style = "font-weight: bolder;" >Registration Form</p>
+        <label>Name: </label><br />
+        <input
+            type="text"
+            placeholder="Enter name"
+            name="full_name"
+        /><br />
+
+        <label>DOB: </label><br />
+        <input type="date" name="Age" /><br />
+
+        <label>Gender: </label><br /><br />
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br />
+        <br />
+
+        <input type="submit" />
+    </form>
+    
+
+    <style>
+    body
+{
+   background-color: rgb(0, 153, 255); 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 15cqmax;
+}
+.POST
+{
+    background: green;
+    width: 500px;
+    padding: 25px;
+}
+</style>
+</body>
+</html>
